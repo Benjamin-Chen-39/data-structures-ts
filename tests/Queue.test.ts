@@ -16,11 +16,11 @@ describe("Queue", () => {
         expect(queue.isEmpty()).toEqual(true);
     });
 
-    // test("enqueue() should add a node", () => {
-    //     let node = new Node();
-    //     queue.enqueue(node);
-    //     expect(queue.isEmpty()).toEqual(false);
-    // });
+    test("enqueue() should add a node", () => {
+        let node = new Node();
+        queue.enqueue(node);
+        expect(queue.isEmpty()).toEqual(false);
+    });
 
     // test("should return length", () => {
     //     let node = new Node();
